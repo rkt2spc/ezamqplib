@@ -15,6 +15,16 @@
     "lodash": "^4.17.4",
     "shortid": "^2.2.6"
   },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "supertest": "^2.0.1",
+    "validator": "^6.2.0"
+  },
   "jshintConfig": {
     "esversion": 6,
     "eqeqeq": true,
