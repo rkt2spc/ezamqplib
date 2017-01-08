@@ -11,8 +11,10 @@ var uri = 'amqp://krcihysa:j-_iaJkdSKNHOK7SjsVXLAZG6hzHG5kL@hyena.rmq.cloudamqp.
 
 //------------------------------------------------------------------------
 // Exports
-module.exports = Object.create(mq);
-module.exports.Provider = Provider;
-module.exports.Consumer = Consumer;
-module.exports.Queue = Queue;
-module.exports.Exchange = Exchange;
+module.exports = {
+    Provider    : Provider,
+    Consumer    : Consumer,
+    Queue       : Queue,
+    Exchange    : Exchange
+};
+Object.assign(module.exports, mq);
