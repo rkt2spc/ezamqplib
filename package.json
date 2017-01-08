@@ -1,0 +1,29 @@
+{
+  "name": "ezamqplib",
+  "version": "1.0.0",
+  "description": "High level abstraction for easy usage of amqplib.node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tuan Nguyen <nmtuan.dev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "async": "^2.1.4",
+    "bluebird": "^3.4.7",
+    "lodash": "^4.17.4",
+    "shortid": "^2.2.6"
+  },
+  "jshintConfig": {
+    "esversion": 6,
+    "eqeqeq": true,
+    "undef": true,
+    "nocomma": true,
+    "node": true,
+    "mocha": true,
+    "predef": [
+      "arguments"
+    ]
+  }
+}
