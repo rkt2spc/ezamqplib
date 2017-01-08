@@ -1,6 +1,6 @@
 {
   "name": "ezamqplib",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "High level abstraction for easy usage of amqplib.node",
   "main": "index.js",
   "scripts": {
