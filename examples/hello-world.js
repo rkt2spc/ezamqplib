@@ -11,10 +11,10 @@ var consumer = new amqp.Consumer(queue, { noAck: true });
 consumer.consume();
 consumer.on('message', (msg) => {
     console.log('Message received:', msg);
-    consumer.cancel();
+    // consumer.cancel();
 });
 
 //------------------------------------------------------------------------
 // Provider side
 var provider = new amqp.Provider();
-provider.sendToQueue(queue, 'Ex1MSG');
+provider.sendToQueue(queue, 'SOME MESSAGE');
