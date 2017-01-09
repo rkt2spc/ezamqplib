@@ -6,7 +6,7 @@ amqp.initialize(uri); // Optional callback
 //------------------------------------------------------------------------
 // Receiver side
 var queue = new amqp.Queue({ name: 'my-first-queue', assertOpts: { durable: true }, deleteOpts: {} });
-var consumer = new amqp.Consumer(queue, { noAck: true });
+var consumer = new amqp.Consumer(queue, { opts: { noAck: true } });
 
 consumer.consume();
 consumer.on('message', (msg) => {
