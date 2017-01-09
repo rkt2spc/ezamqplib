@@ -23,10 +23,10 @@ Here is the basic Hello-World sample. You can find more sample in the [examples]
 No, It is not synchronous so you don't have to worry about anything blocking your thread (Use Promises heavily in the back)  
 
 ```javascript
-var amqp = require('../index');
+var amqp = require('ezamqp');
 var uri = 'amqp://guest:guest@localhost';
 //------------------------------------------------------------------------
-amqp.initialize(uri, socketOptions, (err) => { //connected });
+amqp.initialize(uri, socketOptions, (err) => { //connected }); // Return a promise so you can chain It along, or use the callback (It is an optional param), your choice
 
 //------------------------------------------------------------------------
 var queue = new amqp.Queue({ name: 'my-first-queue', assertOpts: { durable: true }, deleteOpts: {} });
