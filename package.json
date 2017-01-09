@@ -15,7 +15,7 @@
     "url": "git+https://github.com/rocketspacer/ezamqplib.git"
   },
   "author": "Tuan Nguyen <nmtuan.dev@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rocketspacer/ezamqplib/issues"
   },
