@@ -3,11 +3,23 @@
   "version": "1.5.0",
   "description": "High level abstraction for easy usage of amqplib.node",
   "main": "index.js",
+  "engines": {
+    "node": "6.9.x"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketspacer/ezamqplib.git"
   },
   "author": "Tuan Nguyen <nmtuan.dev@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocketspacer/ezamqplib/issues"
+  },
+  "homepage": "https://github.com/rocketspacer/ezamqplib#readme",
   "dependencies": {
     "amqplib": "^0.5.1",
     "async": "^2.1.4",
