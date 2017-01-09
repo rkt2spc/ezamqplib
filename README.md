@@ -2,7 +2,7 @@
 
 Simple to use AMQP (0.9.1) Javascript Client - built while working with RabbitMQ
 
- * Examples
+ * [Examples](https://github.com/rocketspacer/ezamqplib/tree/master/examples)
  * API Reference
  
 It's written in 24 hours, so basically no testing yet. :D Looking for collaborators
@@ -19,8 +19,8 @@ npm install ezamqplib
 
 
 ### Usage
-Here is the basic Hello-World sample. You can find more sample in the examples section.   
-And no, It is not synchronous so you don't have to worry about anything blocking your thread (Use Promises heavily in the back)  
+Here is the basic Hello-World sample. You can find more sample in the [examples](https://github.com/rocketspacer/ezamqplib/tree/master/examples) section.   
+No, It is not synchronous so you don't have to worry about anything blocking your thread (Use Promises heavily in the back)  
 
 ```javascript
 var amqp = require('../index');
